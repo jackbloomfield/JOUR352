@@ -1,0 +1,91 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#masthead {
+  font-family: "Times New Roman", Georgia, sans-serif;
+  font-size:64px;
+  text-align:center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  background-image: url('images/mastheadimage1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 10px white;
+  -webkit-text-stroke-width: 1.25px;
+  -webkit-text-stroke-color: white;
+
+}
+
+h1 {
+  font-size:22px;
+  font-family: Helvetica, sans-serif;;
+  margin-top: -2em;
+  margin-bottom: 1em;
+}
+
+h2 {font-size:22px;
+font-family: Helvetica, sans-serif;;
+
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+
+img {
+  width:600px;
+  height:400px;
+}
+
+p {
+  font-family:Georgia, serif;
+  font-size:13px;
+
+
+}
+
+#caption {
+  font-family: Georgia, serif;
+  font-size:13px;
+  font-style:italic;
+  color: DimGray;
+  width:600px;
+}
+
+blockquote {
+  font: 18px/24px normal helvetica, sans-serif;
+  font-style: italic;
+  font-weight:bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: darkblue;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+a {
+  font-family:Georgia, serif;
+  font-size:13px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height:2.2em;
+
+}
+
+#chatter {
+  font-family: Georgia, serif;
+  font-size:13px;
+  font-weight:bold;
+  width:600px;
+}

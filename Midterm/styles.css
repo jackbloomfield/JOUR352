@@ -1,0 +1,86 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+/* Masthead CSS Styling */
+#masthead {
+  font-family: Montserrat, Georgia, sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: skyblue;
+  text-align: center;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  background-image: url("mastheadimage.jpeg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: fixed;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 10px white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: darkblue;
+  text-shadow: 2px 2px black;
+}
+h1 {
+  font-size: 22px;
+  font-family: Georgia, sans-serif;
+  margin-top: -2em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-size: 16px;
+  font-family: Georgia, sans-serif;
+}
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+#date {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: -1em;
+  margin-bottom: 1em;
+}
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+#big img {
+  width: 900px;
+  height: 500px;
+}
+#img img {
+  width: 600px;
+  height: 400px;
+}
+#caption {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: DimGray;
+  width: 600px;
+}
+#infographic {
+  width: 600px;
+  height: 400px;
+  padding-bottom: 25px;
+}
+blockquote {
+  font: 18px/24px normal Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: darkblue;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}

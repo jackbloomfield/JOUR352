@@ -1,0 +1,234 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Graduate', cursive; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#content {
+  margin: 0 auto;
+  width: 650px;
+}
+ .navbar{
+     background:#61a282;
+     overflow: hidden;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     padding: 10px 20px;
+}
+ .nav-link , .navbar-brand{
+     color: #f4f4f4;
+     cursor: pointer;
+}
+ .nav-link{
+     margin-right: 1em !important;
+}
+ .nav-link:hover{
+     background: #f4f4f4;
+     color: #61a282;
+}
+ .navbar-collapse{
+     justify-content: flex-end;
+}
+ .navbar-toggler{
+     background:#fff !important;
+}
+ .navbar-collapse{
+     justify-content: flex-end;
+}
+
+.hide
+{
+  opacity: 0;
+  max-height: 0;
+}
+
+#trigger {
+  position: absolute;
+  left: -999em;
+}
+
+#container input[type="checkbox"]:checked + div
+{
+  max-height: 99em;
+  opacity: 1;
+  height: auto;
+  overflow: hidden;
+}
+
+#container {
+      font-family: 'Montserrat', sans-serif;
+      color: white;
+      font-weight: bolder;
+      font-size: 24px;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+}
+
+#masthead {
+  font-family: "Graduate", cursive;
+  font-size:64px;
+  text-align:center;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding: 1em 0;
+  background-image: url('images/mastheadimage1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  background-size: cover;
+  background-position: center;
+  border-top: solid 10px white;
+  font-weight: bolder;
+
+}
+
+#mastheadborder {
+    margin-top: -8em;
+    width: 100%; 
+    height: 20px; 
+    border-bottom: 2px solid darkgreen; 
+    text-align: center
+}
+
+#mastheadborder span{
+display:inline-block;
+  width:20em;
+  height:50px;
+     background-color: white;
+     padding: 40 40px;
+}
+
+hr{
+    width: 100%; 
+    border-bottom: 4px solid darkgreen;
+    border-radius: 2px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    color: darkgreen;
+    content: '✤';
+    padding: 0 5px;
+    position: relative;
+    top: -10px;
+}
+
+#topimage img{
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 800px;
+    height: 480px;
+}
+
+#headers{
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+  font-size:24px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+}
+
+.byline {
+    display: block;
+      margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  background-color: #61a282;
+  margin-top: -1em;
+  margin-bottom: 1em;
+
+
+}
+
+.byline p{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.opener{
+    font-family: Graduate, cursive;
+    font-size: 24px;
+    color: #4a7961;
+    padding: 0 0px;
+    margin-right: -.25em;
+}
+
+.italicfont{
+    font-style: italic;
+}
+
+.squadronblurb{
+    font-style: italic;
+    margin-top: -7px;
+}
+
+blockquote {
+    font-family: Montserrat, sans-serif;
+    font-size: 18/24px;
+    color: #4a7961;
+    font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+img {
+  width:650px;
+  height:auto;
+}
+
+#caption {
+  font-size:14px;
+  font-style:italic;
+  color: DimGray;
+  width:600px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+iframe{
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px;
+     text-align: center;
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+a img{
+
+    height: 30px;
+    width: auto;
+}
+
+#socials{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom:20px ;
+}
